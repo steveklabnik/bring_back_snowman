@@ -12,7 +12,9 @@ history of Rails, and thought it'd be fun to bring him back.
 
 Add this line to your application's Gemfile:
 
-    gem 'bring_back_snowman'
+```ruby
+gem 'bring_back_snowman'
+```
 
 And then execute:
 
@@ -30,13 +32,13 @@ is encoded in UTF-8.
 It is configurable, if you prefer something else. Add this to your
 `application.rb`:
 
-```
+```ruby
 config.snowman = {:emoji => "😢"}
 ```
 
 You may also need to add the 'magic comment' at the top of the file:
 
-```
+```ruby
 # encoding: UTF-8
 ```
 
