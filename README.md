@@ -36,6 +36,8 @@ It is configurable, if you prefer something else. Add this to your
 config.snowman = {:emoji => "😢"}
 ```
 
+The key of the configuration hash will be the name of the url parameter. You can use UTF-8 characters for the key too.
+
 You may also need to add the 'magic comment' at the top of the file:
 
 ```ruby
